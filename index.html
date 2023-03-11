@@ -16,9 +16,57 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <img src="images/logo/Booki.png" />
+
+            <nav>
+                <ul>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activites">Activité</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <div class="hebergements-and-populaires">
+            <div class="titre">
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            
+
+            <form method="post" action="#" class="search_complete">
+                <i id="search_image" class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Marseille, France" class="search_bar"/>
+                <button class="search_button"><span>Rechercher</span><i id="search_icon" class="fas fa-search"></i></button>
+            </form>
+
+            <div class="filtres">
+                <h2>Filtres</h2>
+
+                <div class="categories_filtres">
+                    <div class="choix_filtre">
+                        <i class="fas fa-money-bill-wave filters-icon flex bg--blue-secondary blue-primary"></i>
+                        <h3>Economique</h3>
+                    </div>
+    
+                    <div class="choix_filtre">
+                        <i class="fas fa-child filters-icon flex bg--blue-secondary blue-primary"></i>
+                        <h3>Familial</h3>
+                    </div>
+    
+                    <div class="choix_filtre">
+                        <i class="fas fa-heart filters-icon flex bg--blue-secondary blue-primary"></i>
+                        <h3>Romantique</h3>
+                    </div>
+    
+                    <div class="choix_filtre">
+                        <i class="fas fa-dog filters-icon flex bg--blue-secondary blue-primary"></i>
+                        <h3>Animaux acceptés</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="hebergements" class="hebergements-and-populaires">
                 <section class="hebergements">
 
                 </section>
@@ -81,6 +129,10 @@
                         </article>
                     </div>
                 </section>
+            </div>
+
+            <div id="activites">
+
             </div>
         </main>
         <footer></footer>
