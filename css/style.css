@@ -60,7 +60,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    border: 2px solid lightcoral;
     height: 50px;
     margin-bottom: 30px;
     transform: translateY(-10px);
